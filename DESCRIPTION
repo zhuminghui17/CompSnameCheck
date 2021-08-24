@@ -1,0 +1,15 @@
+Package: CompSnameCheck
+Type: Package
+Title: A Simple Function to Extract Surname and
+Version: 0.1.0
+Authors@R: c(
+  person("Minghui", "Zhu", email = "zhuminghui17@gmail.com", role = c("aut", "cre"))
+  )
+Author: Minghui Zhu Bao [aut, cre]
+Maintainer: Minghui Zhu <zhuminghui17@gmail.com>
+Description: This package includes a simple function to extract the Surname and First Name from Chinese Names, automatically checking and modifing the surname if it's a Chinese compound surname.
+Encoding: UTF-8
+LazyData: true
+Imports: stringr,
+         dplyr
+RoxygenNote: 7.1.1
